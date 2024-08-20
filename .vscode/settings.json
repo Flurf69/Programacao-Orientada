@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "exercicio1/src",
+        "SegundoProjeto/src",
+        "exercicio2/src/numero1"
+    ]
+}
