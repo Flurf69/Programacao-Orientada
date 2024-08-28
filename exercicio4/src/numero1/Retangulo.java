@@ -18,7 +18,7 @@ public class Retangulo {
     }
 
     @SuppressWarnings("unused")
-    public void setAltura(int altura) {
+    public void setAltura(int altura) throws IllegalArgumentException {
         if(altura <= 0){
             throw new IllegalArgumentException("Altura " + altura + "é invalida");
         }
@@ -31,7 +31,7 @@ public class Retangulo {
     }
 
     @SuppressWarnings("unused")
-    public void setComprimento(int comprimento) {
+    public void setComprimento(int comprimento) throws IllegalArgumentException {
         if(comprimento <= 0){
             throw new IllegalArgumentException("Comprimento " + comprimento + " invalido");
         }
