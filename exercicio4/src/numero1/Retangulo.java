@@ -20,7 +20,7 @@ public class Retangulo {
     @SuppressWarnings("unused")
     public void setAltura(int altura) {
         if(altura <= 0){
-            throw new IllegalArgumentException("Altura deve ser maior que zero");
+            throw new IllegalArgumentException("Altura " + altura + "é invalida");
         }
         this.altura = altura;
     }
@@ -33,7 +33,7 @@ public class Retangulo {
     @SuppressWarnings("unused")
     public void setComprimento(int comprimento) {
         if(comprimento <= 0){
-            throw new IllegalArgumentException("Comprimento deve ser maior que zero");
+            throw new IllegalArgumentException("Comprimento " + comprimento + " invalido");
         }
         this.comprimento = comprimento;
     }
