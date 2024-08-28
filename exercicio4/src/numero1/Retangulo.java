@@ -17,6 +17,11 @@ public class Retangulo {
         this.comprimento = comprimento;
     }
 
+    /**
+     *
+     * @param altura altura do retangulo
+     * @throws IllegalArgumentException caso altura seja 0 ou menor lança exceção
+     */
     @SuppressWarnings("unused")
     public void setAltura(int altura) throws IllegalArgumentException {
         if(altura <= 0){
@@ -30,6 +35,11 @@ public class Retangulo {
         return altura;
     }
 
+    /**
+     *
+     * @param comprimento comprimento do retangulo
+     * @throws IllegalArgumentException caso comprimento seja 0 ou menor lança exceção
+     */
     @SuppressWarnings("unused")
     public void setComprimento(int comprimento) throws IllegalArgumentException {
         if(comprimento <= 0){
