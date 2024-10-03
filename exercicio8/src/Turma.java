@@ -45,7 +45,9 @@ public class Turma {
     }
 
     public Aluno obterAlunoMelhorNotaEnem(){
-        return null;
+        if(getAluno().size() == 0) {
+            return null;
+        }
     }
 
 
